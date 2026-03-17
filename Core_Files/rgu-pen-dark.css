@@ -1,0 +1,9 @@
+.avatar .avatar-image {
+    background: var(--backgroundColor) !important;
+    }    
+    #discover-top .friend-activity>.activity-list>.activity-item .activity-user-image:not(img) {
+     background: var(--backgroundColor) !important;
+ }
+.dark-theme .item-details-thumbnail-container .thumbnail-holder {
+     background-color: rgba(0, 0, 0, .5);   
+    }

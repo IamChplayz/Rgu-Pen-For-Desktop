@@ -1,0 +1,333 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+--sidebarMargin: 65px;
+--sidebarMargin2: 10px;
+--topbarMargin: 10px;
+--topbarWidth: 10px;
+--sidebarHeight: 75%;   
+--primaryColor: var(--theme-color-primary, #191b1d);
+--secondaryColor: var(--theme-color-secondary, #232527);
+--accentColor: var(--theme-color-third, #333536);
+--backgroundColor: var(--theme-site-backgroundColor, #232527); 
+--backgroundImage: var(--theme-site-backgroundUrl); 
+--avatarBackgroundColor: var(--backgroundColor);
+--v1: 20px;
+  }
+
+
+
+
+.dark-theme .icon-default-placeholder, .dark-theme .icon-placeholder-asset, .dark-theme .icon-placeholder-avatar-fullbody, .dark-theme .icon-placeholder-avatar-headshot, .dark-theme .icon-placeholder-game {
+    background: transparent !important;   
+    }
+    
+   .large-game-page .home-header-long .profile-banner {
+    top: -47px;
+    height: 350px !important;
+    border-radius: 0px !important;
+    left: -5px !important;
+    width: 101% !important;
+  }
+
+   #friends-tab-content > div.pagination-buttons > button {
+    height: 40px;
+    width: 40px;
+  }
+
+   #settings-popover-menu {
+    border-radius: 10px !important;
+  }
+
+   #rogold-badges-container .rogold-badge-item.badge-owned {
+    border: 3px solid #00b95b;
+  }
+
+   #rogold-badges-container .rogold-badge-item.badge-unowned {
+    border: 3px solid #ff6969;
+  }
+
+  #react-user-account-base > div.section > img {
+    content: url(https://github.com/IamChplayz/Rgu-Pen/blob/main/Images/ultimate_hub%20X%20RGU%20Penpng.png?raw=true) !important;
+  }
+
+   .effect-2::before {
+    left: 50% !important;
+    top: 50% !important;
+    height: 110% !important;
+    width: 110% !important;
+    position: absolute;
+    filter: blur(0);
+  }   
+  #discover-categories>.section>.game-list>.game-entry .game-details .play-btn, .discover-categories>.section>.game-list>.game-entry .game-details .play-btn {
+   background: var(--theme-buttons-default-shadow, #00b95b) !important;   
+  }
+  .messages .messageDivider.unread {
+   background: var(--secondaryColor) !important;   
+  }
+  .messages .messageDivider {
+   background: var(--primaryColor) !important;
+  }
+
+
+
+.dark-theme #catalog-react-container .sticky .catalog-header, .light-theme #catalog-react-container .sticky .catalog-header {
+   background: transparent !important;   
+  }
+  #catalog-content > div.catalog-header > div.catalog-heading-container {
+   background: var(--primaryColor) !important;
+    border-radius: 12px;   
+  }
+  #catalog-content > div.catalog-header > div.catalog-heading-container > div.topic-container {
+   background: transparent !important;   
+  }
+  .dark-theme .hover-game-tile.contained-tile .featured-game-container .game-card-link .info-container {
+   height: 95px !important;   
+  }
+  #catalog-react-container .catalog-revamp .catalog-item-container img {
+   background: var(--primaryColor) !important;   
+  }
+  .dark-theme #catalog-react-container .catalog-revamp .catalog-item-container .item-card-thumb-container {
+   background: transparent !important;   
+  }
+  #catalog-content > div.catalog-header > div.catalog-heading-container {
+   bottom: 70px;
+    position: relative;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
+    margin-left: var(--v1)  !important;
+    margin-right: var(--topbarWidth) !important;
+    margin-top: var(--topbarMargin) !important;
+    height: 165px !important;
+  }
+  #catalog-content > div.catalog-header > div.search-bars.search-bar-placement-right {
+    top: (90 + topbarMargin) * 1px;
+    width: 99%;
+    left: (10 + topbarWidth) * 1px;
+    position: relative;
+    margin-top: var(--topbarMargin) !important; 
+  }
+  #results > ul {
+   margin-left: 5px !important;
+  }
+  .css-igs3ac {
+     border: transparent !important;   
+    }
+    .layer {
+     background: transparent !important;
+    }   
+
+
+
+
+.rank-num {
+color: var(--accentColor) !important;
+}
+.rank-num {
+color: var(--accentColor) !important;
+}
+.creator-preview {
+background: var(--primaryColor) !important;
+box-shadow: 0 0 10px var(--primaryColor, var(--third));
+}
+#profile-header-dropdown-menu > div.MuiPaper-root.MuiMenu-paper.web-blox-css-tss-nkarex-Menu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.web-blox-css-mui-hjn929 {
+background: var(--primaryColor) !important;
+}    
+#discover-categories>.section>.game-list>.game-entry:hover>.game-basic-info, .discover-categories>.section>.game-list>.game-entry:hover>.game-basic-info {
+background: var(--accentColor) !important;   
+}
+.collapsible-heading .collapsible-tab+div:not(.hidden) {
+background: var(--theme-color-primary, var(--third)) !important;   
+}
+  .rg-game-card {
+background: var(--primaryColor) !important;
+}
+.rgu-game-header,.rgu-game-description,#rogold-badges-container .section-content,.rgu-game-passes .rgu-passes-grid .rgu-pass-card,.rgu-developer-products .rgu-products-grid .rgu-product-card,.rgu-recent-server-item {
+     background: var(--primaryColor) !important; 
+     box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+    }
+    .rgu-private-servers,.rgu-saved-servers,.rgu-server-item, .rbx-game-server-item{
+     background: var(--primaryColor) !important; 
+     box-shadow: 0 0 8px 0 rgba(0,0,0,.3); 
+    }
+
+
+   .avatar .avatar-image {
+    background: var(--accentColor);
+    }    
+
+
+
+
+
+#game-details-play-button-container > button {
+border-radius: 360px !important;
+}
+#game-detail-page #voting-section {
+    border-radius: 360px !important;
+}
+.fav-buttons {
+border-radius: 360px !important;
+}
+.carousel-controls.btn-primary-md {
+border-radius: 360px !important;
+}
+.leaderboard-btn, .rewards-btn {
+border-radius: 360px !important;
+}
+.quick-play:not(.quick-edit) {
+border-radius: 360px !important;
+}
+#rogold-badges-container .badge-filter-controls {
+border-radius: 25px !important;
+}
+#rogold-badges-container .rogold-badge-item {
+border-radius: 50px !important;
+}
+#rogold-badges-container .badge-search input {
+border-radius: 50px !important;
+}
+#rogold-badges-container .badge-filter-dropdown select {
+border-radius: 50px !important;
+}
+#rogold-badges-container .badge-sort-toggle button, #rogold-badges-container .badge-view-toggle button {
+border-radius: 50px !important;
+}
+#rogold-badges-container .badge-pagination .pagination-button {
+border-radius: 50px !important;
+}
+#rogold-badges-container .badge-pagination .pagination-info {
+border-radius: 50px !important;
+}
+.dark-theme .btn-control-md {
+border-radius: 360px !important;
+}
+.dark-theme .btn-primary-md {
+border-radius: 360px !important;
+   }   
+   .dark-theme .btn-alert-md {
+    border-radius: 360px !important;  
+   }
+   .dark-theme .btn-cta-md {
+    border-radius: 360px !important;   
+   }
+   .dark-theme .input-field {
+    border-radius: 360px !important;
+   }
+   .dark-theme .btn-secondary-md {
+    border-radius: 360px !important;   
+   }
+   #discover-top .friend-activity>.activity-list>.activity-item .activity-user-image {
+   border-radius: 360px !important;   
+  }
+  #discover-top .friend-activity>.activity-list>.activity-item {
+   border-radius: 360px !important;   
+  }
+  div.play-btn {
+   border-radius: 360px !important;   
+  }
+  .games-navigate {
+   border-radius: 360px !important;   
+  }
+  #game-detail-page > div.col-xs-12.section-content.game-main-content.remove-panel.follow-button-enabled > div.game-calls-to-action > div.game-buttons-container > div > div.rgu-random-server-container > button {
+    border-radius: 360px !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+#wrap::before {
+     z-index: -9999;  
+    }
+    #game-details-carousel-container > div {
+    z-index: -9998;
+    position: fixed;
+    filter: blur(5px);
+    width: 102%;
+    height: 102%;
+    left: -10px !important;
+    top: -10px !important;
+    }
+    #game-details-carousel-container {
+     position: relative;   
+    overflow: overlay;
+    width: 100%;
+    height: 100%;
+    }
+    #game-detail-page > div.col-xs-12.section-content.game-main-content.remove-panel.follow-button-enabled {
+     position: relative;   
+    }   
+    
+    .rgu-media-carousel,.rgu-game-header .rgu-media-carousel-container {
+     background: transparent !important;   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

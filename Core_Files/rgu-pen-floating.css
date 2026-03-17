@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+/*floating code*/
+#rgu-navigation {
+    border-radius: 10px !important;
+    min-height: 400px;
+    padding-top: 50px;
+    margin-top: var(--sidebarMargin) !important;
+    margin-left: var(--sidebarMargin2) !important;
+    animation-name: sidebarSwoop;
+    animation-duration: 1s;
+    height: var(--sidebarHeight)!important;
+    top: 40px !important;
+    left: 0px !important;
+}
+   @keyframes sidebarSwoop {
+        from {
+            margin-left: -100px;
+            opacity: 0;
+        }
+        to {
+            margin-left: var(--sidebarMargin2);
+            opacity: 1;
+        }
+    }
+.games-navigate.navigate-left {
+margin-left: 0px !important;
+}
+.games-navigate.navigate-right {
+margin-right: 0px;
+}
+#wrap #header.rbx-header {
+        border-radius: 8px !important;
+        width: calc(100% - var(--topbarWidth) * 2) !important;
+        left: var(--topbarWidth);
+        top: var(--topbarMargin);
+        box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+        animation-name: topbarSwoop;
+        animation-duration: 1s;
+    }
+     @keyframes topbarSwoop {
+        from {
+            margin-top: -100px;
+            opacity: 0;
+        }
+        to {
+            margin-top: var(--topbarMargin);
+            opacity: 1;
+        }
+    }
+    .container-footer {
+     width: calc(100% - 20px) !important;
+    right: 10px !important;
+    bottom: 10px !important;
+    border-radius: 14px !important;   
+    }
+
+
+
+
+#chat-header {
+    bottom: 13%;
+    right: 3%;
+}
+#chat-main {
+background: transparent;
+}
+.chat-container:not(.collapsed) .chat-main {
+background: var(--primaryColor) !important;
+bottom: 10px !important;
+right: 10px !important;
+border-radius: 14px !important;
+}
+.chat-header {
+background: var(--primaryColor) !important;   
+}
+.dark-theme .chat-container .chat-main .chat-header {
+background: var(--primaryColor) !important;   
+}
+@keyframes chatSwoop {
+from {
+margin-bottom: -100px
+opacity: 0;
+}
+to {
+margin-bottom: 0px;
+opacity: 1;
+}
+    
+}
+#chat-header {
+border-radius: 14px !important;   
+}
+#chat-main {
+animation-name: chatSwoop;
+animation-duration: 1s; 
+}
+.dark-theme .dialogs .dialog-container .dialog-header {
+border-radius: 10px !important;
+}
+.dark-theme .dialogs .dialog-container .dialog-body {
+background: transparent !important;
+}
+.dialog-container.dialog-visible {
+bottom: 5px;
+border-radius: 10px !important;
+}
+#mCSB_1 {
+height: 300px;
+}
+
+#rg-user-header > div.profile-banner.profile-banner-long > div {
+   border-radius: 14px !important;
+    position: absolute !important;
+    top: 5px !important;
+    right: 5px !important;
+}
+#chat-main {
+    box-shadow: 0px 0px 0px 0px !important;
+   }
+   #chat-header {
+    top: 0px !important;
+    right: 0px !important;   
+   }
+   #chat-main {
+    right: 10px;
+    bottom: 10px;
+   }

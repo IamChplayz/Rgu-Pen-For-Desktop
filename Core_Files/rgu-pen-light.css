@@ -1,0 +1,17 @@
+.avatar .avatar-image img:not(#dummy-id)  {
+    filter: brightness(0.775) !important;   
+    }
+    .avatar .avatar-image {
+    filter: brightness(1.3) !important;
+    background: var(--backgroundColor) !important;
+    }   
+    #discover-top .friend-activity>.activity-list>.activity-item .activity-user-image {
+     filter: brightness(0.775) !important;  
+    }
+    #discover-top .friend-activity>.activity-list>.activity-item .activity-user-image:not(img) {
+     background: var(--backgroundColor) !important;
+     filter: brightness(1.3) !important;
+    }
+.dark-theme .item-details-thumbnail-container .thumbnail-holder {
+     background-color: rgba(255, 255, 255, .5);   
+    }
