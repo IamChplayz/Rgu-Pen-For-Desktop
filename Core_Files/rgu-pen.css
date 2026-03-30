@@ -178,14 +178,6 @@ background: var(--theme-color-primary, var(--third)) !important;
   .rg-game-card {
 background: var(--primaryColor) !important;
 }
-.rgu-game-header,.rgu-game-description,#rogold-badges-container .section-content,.rgu-game-passes .rgu-passes-grid .rgu-pass-card,.rgu-developer-products .rgu-products-grid .rgu-product-card,.rgu-recent-server-item {
-     background: var(--primaryColor) !important; 
-     box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
-    }
-    .rgu-private-servers,.rgu-saved-servers,.rgu-server-item, .rbx-game-server-item{
-     background: var(--primaryColor) !important; 
-     box-shadow: 0 0 8px 0 rgba(0,0,0,.3); 
-    }
 
 
    .avatar .avatar-image {
