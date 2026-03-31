@@ -137,9 +137,9 @@
     height: 165px !important;
   }
   #catalog-content > div.catalog-header > div.search-bars.search-bar-placement-right {
-    top: (90 + topbarMargin) * 1px;
+    top: 100px;
     width: 99%;
-    left: (10 + topbarWidth) * 1px;
+    left: 20px;
     position: relative;
     margin-top: var(--topbarMargin) !important; 
   }
