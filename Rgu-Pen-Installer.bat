@@ -24,6 +24,8 @@ if not exist "%TARGET_DIR%" mkdir "%TARGET_DIR%"
 xcopy /y "%SOURCE_DIR%\*.css" "%TARGET_DIR%\" >nul
 
 (
+echo.
+echo /* --- Rgu-Pen Custom Injection --- */
 echo ^(function^(^) {
 echo     if ^(document.getElementById^('rgu-pen-override'^)^) return;
 echo     var link = document.createElement^('link'^);
@@ -34,7 +36,6 @@ echo     link.href = chrome.runtime.getURL^('styles/rgu-pen.css'^);
 echo     ^(document.head ^|^| document.documentElement^).appendChild^(link^);
 echo }^)^(^);
 ) > "%temp%\temp_prefix.js"
-
 
 echo.
 set /p float_choice="Do you want to enable Floating sidebar, topbar, and extras? (y/n): "
@@ -66,17 +67,18 @@ set /p hex_color="Hex Code (or press Enter to skip): "
 if not "%hex_color%"=="" goto :AddAvatar
 :SkipAvatar
 
-type "%temp%\temp_prefix.js" > "%temp%\new_main.js"
+type "%MAIN_JS%" > "%temp%\new_main.js"
 echo. >> "%temp%\new_main.js"
-type "%MAIN_JS%" >> "%temp%\new_main.js"
+echo. >> "%temp%\new_main.js"
+type "%temp%\temp_prefix.js" >> "%temp%\new_main.js"
 
 move /y "%temp%\new_main.js" "%MAIN_JS%" >nul
 del "%temp%\temp_prefix.js"
 
 echo.
-echo ===========================================
-echo Installation Complete!
-echo ===========================================
+echo ===================================================
+echo Installation Complete! Thanks for using Rgu Pen :)
+echo ===================================================
 pause
 exit
 
