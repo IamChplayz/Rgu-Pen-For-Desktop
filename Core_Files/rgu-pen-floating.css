@@ -8,16 +8,17 @@
 
 /*floating code*/
 #rgu-navigation {
-    border-radius: 10px !important;
+    border-radius: 14px !important;
     min-height: 400px;
     padding-top: 50px;
-    margin-top: var(--sidebarMargin) !important;
-    margin-left: var(--sidebarMargin2) !important;
+    margin-top: var(--sidebarMargin);
+    margin-left: var(--sidebarMargin2);
     animation-name: sidebarSwoop;
     animation-duration: 1s;
     height: var(--sidebarHeight)!important;
     top: 40px !important;
     left: 0px !important;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
 }
    @keyframes sidebarSwoop {
         from {
@@ -36,7 +37,7 @@ margin-left: 0px !important;
 margin-right: 0px;
 }
 #wrap #header.rbx-header {
-        border-radius: 8px !important;
+        border-radius: 14px !important;
         width: calc(100% - var(--topbarWidth) * 2) !important;
         left: var(--topbarWidth);
         top: var(--topbarMargin);
@@ -58,18 +59,21 @@ margin-right: 0px;
      width: calc(100% - 20px) !important;
     right: 10px !important;
     bottom: 10px !important;
-    border-radius: 14px !important;   
+    border-radius: 14px !important;  
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+    background: var(--primaryColor) !important;
     }
-
 
 
 
 #chat-header {
     bottom: 13%;
     right: 3%;
+    
 }
 #chat-main {
 background: transparent;
+box-shadow: 0 0 8px 0 rgba(0,0,0,.3) !important;
 }
 .chat-container:not(.collapsed) .chat-main {
 background: var(--primaryColor) !important;
@@ -122,7 +126,7 @@ height: 300px;
     right: 5px !important;
 }
 #chat-main {
-    box-shadow: 0px 0px 0px 0px !important;
+    border-radius: 14px !important;
    }
    #chat-header {
     top: 0px !important;

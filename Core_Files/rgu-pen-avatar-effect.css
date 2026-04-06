@@ -27,11 +27,9 @@
     border-right: 3px dashed var(--avatarEffectColor) !important;
     border-left: 3px dashed var(--accentColor) !important;
     border-bottom: 3px dashed var(--accentColor) !important;
-    animation: 10s linear 0s infinite normal none running spin;
 }
        .spin {
     z-index: 0;
-    position: absolute;
     width: 111px;
     height: 111px;
     background: #ffffff00;
