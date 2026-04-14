@@ -485,7 +485,7 @@ border-radius: 360px !important;
   .rgu-server-item .rgu-server-actions .rgu-join-btn, .rbx-game-server-item .rgu-server-actions .rgu-join-btn, .rgu-server-item .rgu-server-actions .rgu-copy-buttons .rgu-copy-btn, .rbx-game-server-item .rgu-server-actions .rgu-copy-buttons .rgu-copy-btn, .rgu-server-item .rgu-server-actions .rgu-copy-buttons-wrapper .rgu-copy-btn, .rbx-game-server-item .rgu-server-actions .rgu-copy-buttons-wrapper .rgu-copy-btn, #game-instances > div > div.stack.server-list-section.rgu-servers > div.container-header > div.server-list-options > div.server-type-toggle, .rgu-servers .container-header .server-list-options .server-type-toggle .server-type-btn, .server-list-section .container-header .server-list-options .server-type-toggle .server-type-btn, .rgu-servers .container-header .server-list-options .server-sort-dropdown .rgu-dropdown__select, .server-list-section .container-header .server-list-options .server-sort-dropdown .rgu-dropdown__select {
 border-radius: 360px !important;
   }
-  .rgu-servers .container-header .server-list-options .checkbox.server-filter-checkbox, .server-list-section .container-header .server-list-options .checkbox.server-filter-checkbox, .server-action-btn.region-filter-btn, .server-action-btn.version-filter-btn, .rgu-servers .container-header .server-list-options .refresh-button, .server-list-section .container-header .server-list-options .refresh-button, .rgu-servers .container-header .server-list-options .server-type-toggle, .server-list-section .container-header .server-list-options .server-type-toggle, .server-action-btn.fast-server-btn, .server-action-btn.empty-server-btn {
+  .rgu-servers .container-header .server-list-options .checkbox.server-filter-checkbox, .server-list-section .container-header .server-list-options .checkbox.server-filter-checkbox, .server-action-btn.region-filter-btn, .server-action-btn.version-filter-btn, .rgu-servers .container-header .server-list-options .refresh-button, .server-list-section .container-header .server-list-options .refresh-button, .rgu-servers .container-header .server-list-options .server-type-toggle, .server-list-section .container-header .server-list-options .server-type-toggle, .server-action-btn.fast-server-btn, .server-action-btn.empty-server-btn, .rgu-media-carousel .rgu-carousel-control {
 border-radius: 360px !important;
   }
 
@@ -498,10 +498,10 @@ border-radius: 360px !important;
 
 
 #wrap::before {
-     z-index: -9999;  
+     z-index: -9999 !important;  
     }
-    #game-details-carousel-container > div {
-    z-index: -9998;
+    .rgu-media-carousel .rgu-carousel-item {
+    z-index: -9998 !important;
     position: fixed;
     filter: blur(5px);
     width: 102%;
@@ -524,14 +524,7 @@ border-radius: 360px !important;
     }
     
 }
-div.rgu-preview-thumb.active {
-    position: absolute !important;
-    height: 432px !important;
-    width: 767px !important;
-    border-radius: 14px !important;
-    border: none !important;
-    bottom: 35px !important;
-}
+
 .rgu-media-preview .rgu-preview-thumbnails .rgu-preview-thumb {
 position: absolute !important;
 width: 0px;
@@ -609,8 +602,11 @@ border-radius: 14px !important;
   position: relative !important;
       right: 10px
   }
-
-
+.rgu-media-preview .rgu-preview-thumbnails .rgu-preview-thumb {
+    position: absolute !important;
+    width: 0px;
+    height: 0px;
+}
 div.rgu-preview-thumb.active {
     position: absolute !important;
     height: 432px !important;
@@ -618,7 +614,24 @@ div.rgu-preview-thumb.active {
     border-radius: 14px !important;
     border: none !important;
     bottom: 35px !important;
+    z-index: -2 !important;
 }
+div.rgu-preview-thumb.active {
+    position: absolute !important;
+    height: 432px !important;
+    width: 767px !important;
+    border-radius: 14px !important;
+    border: none !important;
+    bottom: 35px !important;
+    z-index: -2 !important;
+}
+.rgu-media-carousel .rgu-carousel-control {
+background: var(--secondaryColor) !important;
+z-index: 9999 !important;
+}
+
+
+
 
 
 
