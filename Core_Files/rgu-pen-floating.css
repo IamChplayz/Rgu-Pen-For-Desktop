@@ -7,7 +7,7 @@
 
 
 /*floating code*/
-#rgu-navigation {
+#rgu-navigation, body.rgu-grid-layout #left-navigation-container #rgu-navigation, body.rgu-grid-layout #rgu-left-navigation-container #rgu-navigation {
     border-radius: 14px !important;
     min-height: 400px;
     padding-top: 50px;
@@ -19,6 +19,9 @@
     top: 40px !important;
     left: 0px !important;
     box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+}
+body.rgu-grid-layout #left-navigation-container, body.rgu-grid-layout #rgu-left-navigation-container, body.rgu-grid-layout #navigation-container #left-navigation-container, body.rgu-grid-layout #navigation-container #rgu-left-navigation-container {
+background: transparent !important;
 }
    @keyframes sidebarSwoop {
         from {
@@ -36,7 +39,7 @@ margin-left: 0px !important;
 .games-navigate.navigate-right {
 margin-right: 0px;
 }
-#wrap #header.rbx-header {
+body.rgu-grid-layout #rgu-header {
         border-radius: 14px !important;
         width: calc(100% - var(--topbarWidth) * 2) !important;
         left: var(--topbarWidth);
@@ -55,16 +58,7 @@ margin-right: 0px;
             opacity: 1;
         }
     }
-    .container-footer {
-     width: calc(100% - 20px) !important;
-    right: 10px !important;
-    bottom: 10px !important;
-    border-radius: 14px !important;  
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
-    background: var(--primaryColor) !important;
-    }
-
-
+  }
 
 #chat-header {
     bottom: 13%;
